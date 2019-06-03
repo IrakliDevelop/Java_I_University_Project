@@ -13,7 +13,10 @@ public class LoginController {
         System.out.println(txt_pwd.getText());
 
         boolean authorized = AuthService.authorization(txt_username.getText(),txt_pwd.getText());
-
+        // TODO: main window?
+        if (authorized) {
+            System.out.println("Loading main window");
+        }
         System.out.println(authorized);
     }
 
