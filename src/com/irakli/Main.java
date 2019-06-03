@@ -20,6 +20,7 @@ public class Main extends Application{
     }
 
     public static void main(String[] args) {
+        launch(args);
         //Creating the connection
         String url = "jdbc:mysql://localhost/UniversityDemo";
         String user = "root";
