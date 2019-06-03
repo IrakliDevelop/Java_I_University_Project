@@ -5,11 +5,10 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane fx:id="btn_login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.irakli.controllers.LoginController">
+<Pane fx:id="btn_login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irakli.controllers.LoginController">
    <children>
-      <TextField fx:id="txt_username" layoutX="76.0" layoutY="92.0" />
-      <PasswordField fx:id="txt_pwd" layoutX="76.0" layoutY="157.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="txt_username" layoutX="76.0" layoutY="92.0" prefHeight="26.0" prefWidth="149.0" promptText="Username" />
+      <PasswordField fx:id="txt_pwd" layoutX="76.0" layoutY="157.0" prefHeight="25.0" prefWidth="149.0" promptText="password" />
       <Button fx:id="btnLogin" layoutX="76.0" layoutY="225.0" mnemonicParsing="false" onAction="#btnLogin" prefHeight="25.0" prefWidth="149.0" text="შესვლა" />
    </children>
 </Pane>

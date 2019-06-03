@@ -6,12 +6,11 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irakli.controllers.RegistrationController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="334.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irakli.controllers.RegistrationController">
    <children>
       <TextField layoutX="90.0" layoutY="47.0" />
       <TextField layoutX="90.0" layoutY="108.0" />
-      <ComboBox layoutX="89.0" layoutY="169.0" prefWidth="150.0" />
+      <ComboBox layoutX="89.0" layoutY="169.0" prefWidth="150.0" promptText="pick gender" />
       <DatePicker layoutX="77.0" layoutY="229.0" />
       <Button layoutX="91.0" layoutY="288.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Button" />
    </children>
